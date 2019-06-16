@@ -1,0 +1,405 @@
+/*总布局，消除内外边距*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*导航栏布局开始*/
+/*导航栏-上半部分*/
+.header_up{
+	width: 100%;
+	height:60px ;
+}
+.header_up img{
+	width: 20%;
+	float: left;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+/*导航栏的搜索框布局*/
+.header_up .col-lg-6 {
+	width:40%;
+	height: 60px;
+}
+.header_up .col-lg-6 .input-group{
+	width: 100%;
+	height: 30px;
+	margin-top: 23px;
+	margin-left: 100px;
+}
+/*搜索框的下半部分*/
+.col_list{
+	width: 100%;
+	height: 30px;
+	margin-left: 100px;
+}
+.col_list ul li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+    padding: 0px 6px;
+}
+.col_list ul li a{
+	text-decoration: none;
+	color: #888888;
+}
+/*导航栏的右半部分*/
+.header .header_up_link{
+	width: 25%;
+	height: 90px;
+	float: right;
+	margin-top: 26px;
+}
+.link_registered{
+	width: 40%;
+}
+.header .header_up_link .link_registered{
+	float: left;
+}
+.header .header_up_link .link_registered li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+}
+.header .header_up_link .link_registered li a{
+	text-decoration: none;
+	color: #888888;
+}
+.header .header_up_link .link_registered li a:hover{
+	color: #f60;
+}
+/*导航栏右半部分的图标*/
+.link_registered02{
+	width: 60%;
+	float: right;
+}
+.link_registered02 p{
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding: 20px;
+}
+/*JS部分*/
+.link_image01{
+	background-image: url(../img/QQ.png);
+	background-repeat: no-repeat;
+}
+.link_image02{
+	background-image:url(../img/微信.png) ;
+	background-repeat: no-repeat;
+}
+.link_image03{
+	background-image:url(../img/微博.png) ;
+	background-repeat: no-repeat;
+}
+/*导航栏下半部分*/
+.header_down{
+	width: 100%;
+	height: 41px;
+	font-size:18px ;
+	margin-top: 35px;
+}
+.header_down .down_Classification{
+	float: left;
+	width: 18%;
+    height: 41px;
+    line-height: 41px;
+    text-indent: 20px;
+    margin-left: 10px;
+    background: #F9F7F5;
+    border-left: 1px solid #f60;
+    border-right: 1px solid #f60;
+    border-top: 1px solid #f60;
+}
+.glyphicon .glyphicon-th{
+	margin-right: 10px;
+}
+.header_down .down_Classification a{
+	text-decoration: none;
+	color: #4c4c4c;
+}
+.header_down .down_Classification a:hover{
+	color: #f60;
+}
+/*导航*/
+.down_middle{
+	width:55% ;
+	float: right;
+}
+.down_middle ul{
+	margin-left: 20px;
+}
+.down_middle ul li{
+	width: 14%;
+	height: 41px;
+	line-height: 41px;
+	padding-left: 17px;
+	list-style: none;
+	float: left;
+}
+.down_middle ul li a{
+	text-decoration: none;
+	color: #888888;
+}
+.down_middle ul li a:hover{
+	color: #FF6600;
+}
+/*轮播界面开始*/
+.Carousel{
+	width: 100%;
+	height: 310px;
+	margin-top: 4px;
+	background-color:#F7F7F7;
+}
+.Carousel li{
+	list-style: none;
+}
+.Carousel_left{
+	width: 18%;
+	height: 267px;
+	float: left;
+	margin-left: 10px;
+	background-color: #f60
+}
+.Carousel_left .Carousel_left_link{
+	height: 210px;
+    padding: 6px 5px 0;
+    overflow: hidden;
+}
+.Carousel_left .Carousel_left_link a{
+    height: 42px;
+    line-height: 42px;
+    margin: 0 8px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+}
+.Carousel_left_links{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    left: 0;
+}
+.Carousel_left_links a{
+     color: #FFFFFF;
+     text-decoration: none;
+    margin: 0 13px;
+    font-size: 14px;
+}
+.Carousel_left_links a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/*轮播图中间部分*/
+.Carousel_middle{
+	width: 60%;
+	height: 240px;
+	float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.carousel-inner img{
+	width: 100%;
+}
+/*轮播图右边部分*/
+.Carousel_right{
+	width: 18%;
+	height: 257px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #FFFFFF;
+}
+.Carousel_commend{
+	width: 100%;
+	height:240px ;
+}
+.Carousel_commend p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.Carousel_commend ul{
+	margin-top:10px ;
+}
+.Carousel_right .Carousel_commend a{
+	text-decoration: none;
+	color: #4C4C4C;
+    height: 33px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    display: block;
+}
+.Carousel_right .Carousel_commend a:hover{
+	color: #FF6600;
+}
+/*小编强推部分布局*/
+.Recommend{
+	width: 100%;
+	height: 100%;
+}
+/*小编强推左边*/
+.Recommend_left{
+	width: 78%;
+	height: 570px;
+	float: left;
+	padding-left: 10px;
+	background-color: #F7F7F7;
+}
+.Recommend_left .Recommend_left_title{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+.Recommend_left .Recommend_left_title p{
+	float: left;
+}
+.Recommend_left .Recommend_left_title .right{
+	float: right;
+}
+.Recommend_left .Recommend_left_title a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #4C4C4C;
+}
+.Recommend_left .Recommend_left_title a:hover{
+	color: #FF6600;
+}
+.Recommend_left a{
+	text-decoration: none;
+	color: #4C4C4C;
+}
+.Recommend_left a:hover{
+	text-decoration: none;
+	color: #FF6600;
+}
+/*图片*/
+.Recommend_right{
+	width: 23%;
+	float: right;
+	background-color:;
+}
+.Recommend_left ul{
+	float: left;
+	width:100% ;
+	background-color: ;
+	margin-top: 20px;
+	list-style: none;
+}
+.Recommend_left li{
+	width: 15%;
+	margin: 5px;
+	float: left;
+}
+.Recommend_left li img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+/*推荐右边*/
+.Recommend_right ul{
+	margin-top: 15px;
+	list-style: none;
+} 
+.Recommend_right ul li{
+	line-height: 45px;
+	height: 45px;
+	letter-spacing: 1px;
+} 
+.Recommend_right ul a{
+	text-decoration: none;
+	color: #4C4C4C;
+} 
+.Recommend_right ul a:hover{
+	color: #FF6600;
+} 
+
+.Recommend_right .icon_Recommend_right{
+	border: 1px solid #FF6600;
+	background-color: #FF6600;
+	padding: 6px;
+	color: white;
+} 
+.Recommend_right{
+	width: 22%;
+	height: 570px;
+	float: right;
+	background-color: #F7F7F7;
+	padding-left: 10px;
+}
+.Recommend_right .Recommend_right_title{
+	width: 100%;
+	height: 33px;
+	border-bottom: 1px solid gainsboro;
+}
+.Recommend_right .Recommend_right_title p{
+	float: left;
+}
+.Recommend_right .Recommend_right_title .right{
+	float: right;
+}
+.Recommend_right .Recommend_right_title .right a{
+	float: right;
+}
+.Recommend_right .Recommend_right_title a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #4C4C4C;
+	padding-left: 10px;
+}
+.Recommend_right .Recommend_right_title a:hover{
+	color: #FF6600;
+}
+/*友情链接*/
+.friend_link{
+	width: 100%;
+	height: 100%;
+	background-color: #F7F7F7;
+}
+.friend_link p{
+	width: 100%;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #4C4C4C;
+	
+}
+.friend_link ul{
+	width: 100%;
+	height: 200px;
+	padding-left: 15px;
+}
+.friend_link ul li{
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	list-style: none;
+	width: 14%;
+}
+/*最后*/
+.finall{
+	width: 100%;
+	height: 100%;
+	color: #888;
+	font-size: 12px;
+	background-color:#ece8e5;
+	border: 1px solid #d1cdcd;
+}
+.finall ul{
+	margin-top: 50px;
+	padding-left: 400px;
+	width: 100%;
+	height: 70px;
+}
+.finall ul li{
+	list-style: none;
+	padding-left: 20px;
+	float: left;
+}
+.finall p{
+	text-align: center;
+}
